@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TM">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:background="#FF5722"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Teknik Mesin"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Deskripsi dan Profil"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:padding="12dp"
+                android:text="Program Studi Teknik Mesin Politeknik Negeri Padang didirikan pada tahun 1987 dan saat ini memiliki 27 dosen tetap. Program ini menawarkan dua bidang unggulan, yaitu Teknik Produksi dan Teknik Perawatan Mesin, dengan fokus pada praktik permesinan seperti bubut, frais, dan pengelasan. Pada tahun 2009, dibuka Program Studi Teknik Alat Berat bekerja sama dengan PT Trakindo, yang berfokus pada pemeliharaan alat berat dan didukung oleh 7 dosen tetap serta 6 unit alat berat." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="Pada tahun 2013, Program Studi Teknik Manufaktur dibuka sebagai program sarjana terapan dengan fokus pada teknologi, perancangan, otomasi, dan manajemen manufaktur. Selanjutnya, pada tahun 2022, dibuka Program Studi Rekayasa Perancangan Mekanik yang menjadi program sarjana terapan kedua di jurusan tersebut. Hingga 2023, Jurusan Teknik Mesin memiliki empat program studi: D3 Teknik Mesin, D3 Teknik Alat Berat, D4 Teknik Manufaktur, dan Sarjana Terapan Rekayasa Perancangan Mekanik" />
+
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#F45523"
+                android:text="Back" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TI">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:background="#FF5722"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Teknologi Informasi"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Deskripsi dan Profil"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="12dp"
+            android:text="Pada awal tahun 2000, gagasan pendirian jurusan Teknologi Informasi di Politeknik Unand Padang sudah muncul, namun terkendala oleh keterbatasan sumber daya manusia dan infrastruktur. Baru pada Februari 2005, dosen-dosen seperti Erwadi Bakar, Surfayondri, Andrizal, H.A. Mooduto, Yulindon, Ahmad Dahlan, Ronal Hadi, dan Rahmat Hidayat, dengan dukungan pimpinan Politeknik Suhendrik Hanwar, mengajukan proposal pendirian program studi yang berkaitan dengan Teknologi Informasi." />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Dasar pendirian ini adalah kontribusi dalam pengembangan teknologi informasi melalui pendidikan, serta antisipasi terhadap perkembangan teknologi yang pesat. Program studi yang diusulkan adalah Teknik Komputer, Teknik Informatika, dan Manajemen Informatika. Pada akhirnya, dua program, yakni Teknik Komputer dan Manajemen Informatika, mendapat izin dari dikti, dan penerimaan mahasiswa pertama dilaksanakan pada September 2005, dengan Erwadi Bakar sebagai Ketua Jurusan dan Ronal Hadi sebagai Sekretaris Jurusan." />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#F45523"
+            android:text="back" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
